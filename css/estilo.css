@@ -1,0 +1,162 @@
+body {
+  background-image: url(../imagenes/patron.png);
+  background-size: 500px;
+  margin: 0px;
+  font-family: Verdana, Arial;
+  font-size: 18px;
+  padding: 0;
+}
+
+body .primero {
+  display: block;
+  max-width: 960px;
+  margin: auto;
+  background-color: white;
+}
+
+#encabezado {
+  background-color: #be299b;
+  position: relative;
+  top: 0px;
+  padding: 20px;
+  border-bottom: 1px solid #be299b;
+  height: 120px;
+}
+#botones {
+  text-align: center;
+  font-size: 16px;
+}
+#navegador {
+  margin: 0;
+  display: inline-block;
+}
+#navegador li {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  background-color: darkslateblue;
+  border: 1px solid darkred;
+  margin: 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+#navegador li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+#navegador li a:hover {
+  color: #ffcad7;
+}
+
+#main {
+  display: block;
+  padding: 0 30px 40px 40px;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 2px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: darkslateblue;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 0px 15px 0px;
+  border-top: 3px solid #be299b;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-transform: uppercase;
+}
+
+#main h3 {
+  color: #be299b;
+  font-size: 18px;
+  border-bottom: 2px solid #0a488e;
+  text-transform: uppercase;
+}
+
+#main h3:first-of-type {
+  border-bottom: none;
+}
+
+.onlineSection {
+  text-align: center;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+#main p {
+  line-height: 28px;
+}
+
+.izquierda {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.izquierda p {
+  margin-top: 0px;
+}
+
+.derecha {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+}
+
+#footer {
+  max-width: 960px;
+  height: 195px;
+  background-color: #be299b;
+}
+
+#footer div {
+  max-width: 90%;
+  justify-content: center;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+#footer div div {
+  padding-top: 30px;
+  margin-left: 10em;
+}
+
+#footer div span {
+  font-style: italic;
+}
+
+#footer div details {
+  margin-top: 30px;
+  margin-left: 20em;
+  font-size: 16px;
+}
+
+#datos li {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#datos {
+  color: white;
+}
